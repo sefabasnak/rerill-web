@@ -35,8 +35,9 @@ Thumbs.db
 *.tsbuildinfo
 next-env.d.ts
 
-# Vercel
-.vercel
+# Cloudflare
+.wrangler/
+.dev.vars
 
 # Local settings (not project config)
 .claude/settings.local.json
