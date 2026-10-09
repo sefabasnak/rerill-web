@@ -1,0 +1,6 @@
+.DS_Store
+.idea/
+.vscode/
+*.p8
+.env
+.env.*
