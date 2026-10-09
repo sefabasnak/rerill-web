@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "next build && wrangler pages deploy out --project-name=rerill",
+    "deploy": "next build && wrangler deploy",
     "start": "npx serve out",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",

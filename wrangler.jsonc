@@ -1,5 +1,11 @@
 {
   "name": "rerill",
   "compatibility_date": "2026-10-09",
-  "pages_build_output_dir": "out"
+  "build": {
+    "command": "npm run build"
+  },
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
 }

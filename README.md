@@ -1,22 +1,22 @@
 # rerill.web
 
-rerill’in herkese açık sitesi. Cloudflare Pages’e statik export olarak yayınlanır.
+rerill’in herkese açık sitesi. Cloudflare’e Next.js statik export (`out/`) olarak yayınlanır.
 
 ```bash
 npm install
 npm run dev
-npm run build
-npx wrangler pages deploy out --project-name=rerill
+npm run deploy
 ```
 
-Dashboard’dan Git bağlarken:
+Cloudflare Git ayarları (Workers & Pages):
 
 | Ayar | Değer |
 |---|---|
-| Framework preset | Next.js (Static HTML Export) |
 | Production branch | `main` |
 | Build command | `npx next build` |
-| Build directory | `out` |
+| Deploy command | `npx wrangler deploy` |
+
+Deploy komutu `npx wrangler deploy` ise build komutu boş bırakılmamalı; aksi halde `out/` oluşmaz.
 
 App Store URL’leri (yayın sonrası):
 
