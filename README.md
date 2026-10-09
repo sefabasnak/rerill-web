@@ -1,15 +1,13 @@
 # rerill.web
 
-rerill’in herkese açık sitesi: tanıtım, gizlilik politikası ve destek. App Store Connect Privacy Policy ve Support URL’si buradan verilir.
+rerill’in herkese açık sitesi. App Store gizlilik ve destek URL’leri:
 
-Yerel:
+- `/gizlilik`
+- `/destek`
 
 ```bash
-open index.html
+npm install
+npm run dev
 ```
 
-GitHub Pages açılınca adresler:
-
-- `https://sefabasnak.github.io/rerill-web/`
-- `https://sefabasnak.github.io/rerill-web/gizlilik.html`
-- `https://sefabasnak.github.io/rerill-web/destek.html`
+Vercel, `github.com/sefabasnak/rerill-web` deposunu bağlayınca yayına alınır.
